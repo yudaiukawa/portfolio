@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head lang="ja">
+    <meta charset="utf-8">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <main>
+      <div id="name">
+        <h1><a href="#">宇川雄大</a></h1>
+      </div>
+      <div id="details">
+        <ul>
+          <li id="about"><a href="#">about</a></li>
+          <li id="background"><a href="#">background</a></li>
+          <li id="skill"><a href="#">skill</a></li>
+          <li id="work"><a href="#">work</a></li>
+          <li id="sns"><a href="#">sns</a></li>
+          <li id="contact"><a href="#">contact</a></li>
+        </ul>
+      </div>
+      <div class="miss">
+        <div class="about">
+          <div class="me">
+            <img src="me.jpg" alt="宇川雄大の写真">
+            <h2>名前:宇川 雄大</h2>
+          </div>
+          <p>年齢:18歳<br>
+          2000年10月25日生まれ<br>
+          現在は国際ファッション専門職大学に通っています。</p>
+        </div>
+      </div>
+      <work>
+        <div class="noname">
+          <a href="https://yudaiukawa.github.io/noname-bordone/"><img src="noname.jpg" alt="ポートフォリオ写真"></a>
+        </div>
+      </work>
+      <div class="skill">
+        <h3>使える言語(HTML,CSS含めて)</h3>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>jQuery</li>
+          <li>PHPは軽く</li>
+        </ul>
+      </div>
+      <div class="background">
+        <h3>経歴</h3>
+          <ul>
+            <li>2016年4月:関西大倉高等学校入学</li>
+            <li>2019年3月:関西大倉高等学校卒業</li>
+            <li>2019年4月:国際ファッション専門職大学</li>
+          </ul>
+        <p>プログラミングは2019年2月ぐらいから、オンラインの勉強サイトの<br>
+          progateとdotinstallから初めて、10月からブランドギャラリーの<br>
+          web担当として働きながら、フリーランスとしても活動しています。</p>
+      </div>
+      <div class="sns">
+        <ul>
+          <li><a href="https://www.instagram.com/yudai_uk/?hl=ja" target="_blank">Instagram</a></li>
+          <li><a href="mailto:yuudaiufo@icloud.com">Mail</a></li>
+        </ul>
+      </div>
+      <div class="contacts">
+        <div class="contact">
+          名前:<input type="text" name="name">
+        </div>
+        <div class="contact">
+          メールアドレス:<input type="email" name="email">
+        </div>
+        <div class="contact">
+          <p>問い合わせ内容:</p><textarea name="coment"></textarea>
+        </div>
+        <div class="contact">
+          <input id="plane" type="submit" value="送信">
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
